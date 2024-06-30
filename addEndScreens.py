@@ -88,25 +88,14 @@ def addEndScreens():
         clickOnBtnFromXPath(XPATH_IMPORT_VIDEO)
         time.sleep(1)
         #save the end screen
-        saveEndScreenBtn= None
-        logging.info("trying to find save button: %s",XPATH_END_SCREEN_SAVE_BTN)
+        saveEndScreenBtn= None        
         saveEndScreenBtn= driver.find_element(By.XPATH,XPATH_END_SCREEN_SAVE_BTN)
-        logging.info("finished call to find element")
-        if saveEndScreenBtn is not None:
-            logging.info("save end screen not None")
+        if saveEndScreenBtn is not None:            
             is_disabled = saveEndScreenBtn.get_attribute("disabled")
-            logging.info("is_disabled: %s",is_disabled)
-            tag_name = saveEndScreenBtn.tag_name
-            print(f"Tag Name: {tag_name}")
-            logging.info("Save element tag name: %s",tag_name)
-            if is_disabled is None:
-                logging.info("save end screen not disabled, %s",is_disabled)
+            if is_disabled is None:                
                 saveEndScreenBtn.click()
-            else:
-                logging.info("discard button")
-                discardBtn= None
-                logging.info("Save button disabled, attempting to click discard button")
-                print("Save button disabled, attempting to click discard button");                
+            else:                
+                discardBtn= None                             
                 discardBtn= driver.find_element(By.XPATH,XPATH_END_SCREEN_DISCARD_BTN)
                 if discardBtn is not None:
                     logging.info("clicking discard button")
