@@ -1,0 +1,102 @@
+/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[2]/ul/li[2]/ytcp-ve/a/tp-yt-paper-icon-item
+
+#menu-paper-icon-item-1 > div.nav-item-text.style-scope.ytcp-navigation-drawer
+
+<div class="nav-item-text style-scope ytcp-navigation-drawer">Content</div>
+
+
+
+//*[@id="menu-paper-icon-item-1"]/div[2]
+
+
+
+Video 1 on content page
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/h3/a/span
+Video 2 on content page
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[2]/div/div[2]/ytcp-video-list-cell-video/div[2]/h3/a/span
+Video 31 on second page (it starts back over) TODO: determine how many there are on a page to start the index over
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/h3/a/span
+
+xpath for back to content button
+/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[1]/ytcp-ve/a/tp-yt-paper-icon-item
+
+made for kids button
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[10]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[5]/ytkc-made-for-kids-select/div[4]/tp-yt-paper-radio-group/tp-yt-paper-radio-button[2]/div[2]/ytcp-ve
+
+end screen button
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[10]/ytcp-video-details-section/ytcp-video-metadata-editor/ytcp-video-metadata-editor-sidepanel/ytcp-text-dropdown-trigger[2]/ytcp-dropdown-trigger/div/div[2]/span
+
+import from video
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[2]/div/ytve-editor/div[1]/div/ytve-endscreen-editor-options-panel/div[1]/ytcp-button[2]/div
+
+search yours field
+/html/body/ytcp-video-pick-dialog/ytcp-dialog/tp-yt-paper-dialog/div[1]/div[2]/div/tp-yt-paper-tabs/div/div/tp-yt-paper-tab[1]/div/input
+
+contents after search
+/html/body/ytcp-video-pick-dialog/ytcp-dialog/tp-yt-paper-dialog/div[2]/div/ytcp-video-pick-dialog-contents/div/div/div/ytcp-entity-card
+
+save button
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/div[2]/ytcp-button/div
+
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/div[2]/ytcp-button
+
+new save button
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/div/div[2]/ytcp-button/div
+
+save when disabled
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/div/div[2]/ytcp-button/div
+
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/div/div[2]/ytcp-button
+
+save button
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/div/div[2]/ytcp-button
+
+
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/div[2]/ytcp-button
+
+discard if end screens already were set like that
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/ytcp-button/div
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/ytcp-button/div
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/ytcp-button
+
+
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/ytcp-button
+
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/div/ytcp-button/div
+
+save from edit
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[10]/ytcp-video-details-section/ytcp-sticky-header/ytcp-entity-page-header/div/div[2]/ytcp-button[2]/div
+
+next button
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/div[2]/ytcp-table-footer/div[2]/ytcp-icon-button[3]/tp-yt-iron-icon
+
+Exception has occurred: UnexpectedTagNameException
+Message: Select only works on <select> elements, not on div
+
+
+function to get a webelement from an xpath (cut down on duplicate code)
+
+delete element
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[2]/div/ytve-editor/div[1]/div/ytve-endscreen-editor-options-panel/div[2]/div/ytcp-icon-button
+
+editVideo
+-Hover over video
+-Press the edit button
+-press the not for kids button
+-press the 
+
+
+left off:
+likely failing due to line 62, import from video is not available if you already have end screens, maybe we should clear any existing end screens first
+
+TODO:
+-Determine why is disabled for save button is no longer working, reporting None but it is disabled (fixed, had to fix some x-links)
+-Close Browser at the end
+-Kids Only option
+-second page and beyond logic (done, just need to test after fixing the issue where variable was not being cast to an int)
+-optional description added to all videos (TODO next)
+-properties file to store the settings (done)
+-create a github to share the code
+-setup new laptop with python (need to document the process, maybe record it)
+-OBS, test recording screen, camera, and mic
+-youtube video and new channel
