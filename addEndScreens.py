@@ -136,6 +136,7 @@ def editVideo(index):
             #save the edit
             saveBtn= None            
             saveBtn= driver.find_element(By.XPATH,XPATH_EDIT_SAVE)
+            logging.info("Edit save button")
             if saveBtn is not None:
                 is_disabled = saveBtn.get_attribute("disabled")                
                 if is_disabled is None:
@@ -148,7 +149,7 @@ def editVideo(index):
                 backBtn.click()
             time.sleep(2)
     except Exception as e:
-        print("addEndScreenToVideo | An error occurred:", e)
+        print("editVideo | An error occurred:", e)
 
 
 # Check if the correct number of arguments is provided
@@ -196,11 +197,11 @@ XPATH_VIDEO_TO_HOVER_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/h3/a/s
 XPATH_EDIT_START= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row["
 XPATH_EDIT_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[2]/a[1]/ytcp-icon-button"
 XPATH_EDIT_NOT_FOR_KIDS= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[5]/ytkc-made-for-kids-select/div[4]/tp-yt-paper-radio-group/tp-yt-paper-radio-button[2]/div[2]/ytcp-ve"
-XPATH_EDIT_SAVE= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-sticky-header/ytcp-entity-page-header/div/div[2]/ytcp-button[2]/div"
+XPATH_EDIT_SAVE= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-sticky-header/ytcp-entity-page-header/div/div[2]/ytcp-button[2]/ytcp-button-shape/button/div"
 XPATH_EDIT_BACK_BTN= "/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[1]/ytcp-ve/a/tp-yt-paper-icon-item"
 XPATH_EDIT_END_SCREEN_BTN= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-video-metadata-editor/ytcp-video-metadata-editor-sidepanel/ytcp-text-dropdown-trigger[2]/ytcp-dropdown-trigger/div/div[2]/span"
 XPATH_END_SCREEN_BASE= "/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div"
-XPATH_END_SCREEN_IMPORT_BTN= XPATH_END_SCREEN_BASE + "[2]/div/ytve-editor/div[1]/div/ytve-endscreen-editor-options-panel/div[1]/ytcp-button[2]/div"
+XPATH_END_SCREEN_IMPORT_BTN= XPATH_END_SCREEN_BASE + "[2]/div/ytve-editor/div[1]/div/ytve-endscreen-editor-options-panel/div[1]/ytcp-button[2]"
 XPATH_END_SCREEN_SAVE_BTN= XPATH_END_SCREEN_BASE + "[1]/div/div[2]/div/div[2]/ytcp-button"
 XPATH_END_SCREEN_DISCARD_BTN= XPATH_END_SCREEN_BASE + "[1]/div/div[2]/div/ytcp-button"
 XPATH_END_SCREEN_CLEAR= XPATH_END_SCREEN_BASE + "[2]/div/ytve-editor/div[1]/div/ytve-endscreen-editor-options-panel/div[2]/div/ytcp-icon-button"
