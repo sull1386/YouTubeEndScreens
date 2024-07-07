@@ -134,14 +134,20 @@ def editVideo(index):
             #now add the end screens
             addEndScreens()
             #save the edit
-            saveBtn= None            
-            saveBtn= driver.find_element(By.XPATH,XPATH_EDIT_SAVE)
-            logging.info("Edit save button")
-            if saveBtn is not None:
-                is_disabled = saveBtn.get_attribute("disabled")                
-                if is_disabled is None:
-                    saveBtn.click()
-                    time.sleep(1)
+            saveBtn= None
+            logging.info("About to look for save button")
+            try:            
+                saveBtn= driver.find_element(By.XPATH,XPATH_EDIT_SAVE)
+                logging.info("Edit save button")
+                if saveBtn is not None:
+                    is_disabled = saveBtn.get_attribute("disabled")                
+                    if is_disabled is None:
+                        saveBtn.click()
+                        time.sleep(1)
+                else:
+                    logging.info("Can't find save button")
+            except Exception as e:
+                logging.info("Save Button not found, just pressing back button")
             #return back to main content page for now
             backBtn= None            
             backBtn= driver.find_element(By.XPATH,XPATH_EDIT_BACK_BTN)
