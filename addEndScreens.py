@@ -37,7 +37,7 @@ def clickOnBtnFromXPath(xPathString):
     btn= None
     btn= driver.find_element(By.XPATH,xPathString)
     if btn is None:
-        print("Found to find button with xPath: " + xPathString)
+        print("Failed to find button with xPath: " + xPathString)
         return False
     btn.click()
     return True
