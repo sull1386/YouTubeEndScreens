@@ -108,3 +108,28 @@ TODO:
 -setup new laptop with python (need to document the process, maybe record it)
 -OBS, test recording screen, camera, and mic
 -youtube video and new channel
+
+
+Issue:
+-Not finding this element: 
+-dialog/div[1]/div/div[2]/div/div[2]/ytcp-button
+
+
+
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[3]/div/ytcp-button
+
+
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[3]/div/div[2]/ytcp-button
+
+
+previous:
+save button:
+XPATH_END_SCREEN_SAVE_BTN= XPATH_END_SCREEN_BASE + "[1]/div/div[2]/div/div[2]/ytcp-button"
+XPATH_END_SCREEN_DISCARD_BTN= XPATH_END_SCREEN_BASE + "[1]/div/div[2]/div/ytcp-button"
+
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[2]/div/div[2]/ytcp-button
+
+save button:
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[3]/div/div[2]/ytcp-button
+discard button:
+/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[3]/div/ytcp-button
