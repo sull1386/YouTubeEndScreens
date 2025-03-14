@@ -133,3 +133,23 @@ save button:
 /html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[3]/div/div[2]/ytcp-button
 discard button:
 /html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div[1]/div/div[3]/div/ytcp-button
+
+full xpath:
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/a/span
+
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/h3/a/span
+
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/a/span
+
+no such element
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[2]/a[1]/ytcp-icon-button
+
+
+
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]/a[1]/ytcp-icon-button/tp-yt-iron-icon
+
+
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[2]/a[1]/ytcp-icon-button
+
+from the site
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]/a[1]/ytcp-icon-button/tp-yt-iron-icon

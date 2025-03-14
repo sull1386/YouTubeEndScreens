@@ -1,20 +1,11 @@
-2025-03-05 18:54:56,636 - INFO - PARAMETER | Number of videos:  7
-2025-03-05 18:54:56,636 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
-2025-03-05 18:54:56,637 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
-2025-03-05 18:54:56,637 - INFO - PARAMETER | user_data_dir:  C:\Users\StemS\AppData\Local\Google\Chrome\User Data
-2025-03-05 18:54:56,637 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
-2025-03-05 18:55:12,179 - INFO - clicking discard button
-2025-03-05 18:55:13,236 - INFO - About to look for save button
-2025-03-05 18:55:13,264 - INFO - Save Button not found, just pressing back button
-2025-03-05 18:55:24,910 - INFO - About to look for save button
-2025-03-05 18:55:24,940 - INFO - Edit save button
-2025-03-05 18:55:37,791 - INFO - About to look for save button
-2025-03-05 18:55:37,810 - INFO - Edit save button
-2025-03-05 18:55:50,623 - INFO - About to look for save button
-2025-03-05 18:55:50,635 - INFO - Edit save button
-2025-03-05 18:56:03,560 - INFO - About to look for save button
-2025-03-05 18:56:03,569 - INFO - Edit save button
-2025-03-05 18:56:16,596 - INFO - About to look for save button
-2025-03-05 18:56:16,618 - INFO - Edit save button
-2025-03-05 18:56:29,517 - INFO - About to look for save button
-2025-03-05 18:56:29,540 - INFO - Edit save button
+2025-03-13 20:03:21,116 - INFO - PARAMETER | Number of videos:  2
+2025-03-13 20:03:21,116 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
+2025-03-13 20:03:21,116 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
+2025-03-13 20:03:21,116 - INFO - PARAMETER | user_data_dir:  C:\Users\StemS\AppData\Local\Google\Chrome\User Data
+2025-03-13 20:03:21,116 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-03-13 20:03:36,436 - INFO - clicking discard button
+2025-03-13 20:03:37,525 - INFO - About to look for save button
+2025-03-13 20:03:37,553 - INFO - Save Button not found, just pressing back button
+2025-03-13 20:03:48,473 - INFO - clicking discard button
+2025-03-13 20:03:49,531 - INFO - About to look for save button
+2025-03-13 20:03:49,558 - INFO - Save Button not found, just pressing back button

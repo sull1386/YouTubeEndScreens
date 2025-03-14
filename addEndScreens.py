@@ -124,7 +124,7 @@ def editVideo(index):
                 return
             # Create an ActionChains object
             action_chains = ActionChains(driver)        
-            # Move the mouse pointer to the element to hover over
+            # Move the mouse pointer to the element to hover over        
             action_chains.move_to_element(video_to_hover_over).perform()                
             #find the edit button for the video and click it
             clickOnBtnFromXPath(XPATH_EDIT_START + index + XPATH_EDIT_END)
@@ -199,9 +199,9 @@ logging.info("PARAMETER | chrome_binary_path:  %s",chrome_binary_path)
 XPATH_CONTENT= "/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[2]/ul/li[2]/ytcp-ve/a/tp-yt-paper-icon-item"
 XPATH_BASE_YTCP= "/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable"
 XPATH_VIDEO_TO_HOVER_START= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row["
-XPATH_VIDEO_TO_HOVER_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/h3/a/span"
+XPATH_VIDEO_TO_HOVER_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/a/span"
 XPATH_EDIT_START= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row["
-XPATH_EDIT_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[2]/a[1]/ytcp-icon-button"
+XPATH_EDIT_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]/a[1]/ytcp-icon-button/tp-yt-iron-icon"
 XPATH_EDIT_NOT_FOR_KIDS= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[5]/ytkc-made-for-kids-select/div[4]/tp-yt-paper-radio-group/tp-yt-paper-radio-button[2]/div[2]/ytcp-ve"
 XPATH_EDIT_SAVE= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-sticky-header/ytcp-entity-page-header/div/div[2]/ytcp-button[2]/ytcp-button-shape/button/yt-touch-feedback-shape/div/div[2]"
 XPATH_EDIT_BACK_BTN= "/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[1]/ytcp-ve/a/tp-yt-paper-icon-item"
