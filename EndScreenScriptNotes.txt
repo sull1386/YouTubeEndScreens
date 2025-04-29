@@ -153,3 +153,16 @@ no such element
 
 from the site
 /html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]/a[1]/ytcp-icon-button/tp-yt-iron-icon
+
+
+If you want to pre-configure this profile (e.g., bookmarks, logins, extensions):
+
+Launch Chrome manually like this (via command prompt or .bat file):
+
+bash
+Copy
+Edit
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\Users\StemS\.selenium-profile"
+Set it up however you want (log in, install extensions).
+
+Close it, and then use that same folder with Selenium — it will pick up the changes.

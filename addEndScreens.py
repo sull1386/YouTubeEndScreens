@@ -13,6 +13,7 @@ import time
 import configparser
 import math
 import logging
+import os
 
 def getWebElementFromList(xPath):
     try:
@@ -180,6 +181,8 @@ print("youtubeStudioURL: " + youtubeStudioURL)
 print("user_data_dir: " + user_data_dir)
 print("chrome_binary_path: " + chrome_binary_path)
 print("end_screen_to_copy: " + end_screen_to_copy)
+
+os.makedirs(user_data_dir, exist_ok=True)
 
 #setup logging
 # Configure the logging
