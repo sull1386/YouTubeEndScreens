@@ -204,10 +204,9 @@ XPATH_BASE_YTCP= "/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-ani
 XPATH_VIDEO_TO_HOVER_START= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row["
 XPATH_VIDEO_TO_HOVER_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/a/span"
 XPATH_EDIT_START= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row["
-XPATH_EDIT_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]/a[1]/ytcp-icon-button/tp-yt-iron-icon"
+XPATH_EDIT_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]/a[1]/ytcp-icon-button/yt-icon/span/div"
 XPATH_EDIT_NOT_FOR_KIDS= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[5]/ytkc-made-for-kids-select/div[4]/tp-yt-paper-radio-group/tp-yt-paper-radio-button[2]/div[2]/ytcp-ve"
 XPATH_EDIT_SAVE= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-sticky-header/ytcp-entity-page-header/div/div[2]/ytcp-button[2]"
-
 XPATH_EDIT_BACK_BTN= "/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[1]/ytcp-ve/a/tp-yt-paper-icon-item"
 XPATH_EDIT_END_SCREEN_BTN= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-video-metadata-editor/ytcp-video-metadata-editor-sidepanel/ytcp-text-dropdown-trigger[2]/ytcp-dropdown-trigger/div/div[2]/span"
 XPATH_END_SCREEN_BASE= "/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div"
