@@ -166,3 +166,7 @@ Edit
 Set it up however you want (log in, install extensions).
 
 Close it, and then use that same folder with Selenium — it will pick up the changes.
+
+
+description
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[10]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-video-description/div/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div

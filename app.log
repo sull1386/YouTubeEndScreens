@@ -1,58 +1,95 @@
-2025-04-29 19:40:23,831 - INFO - PARAMETER | Number of videos:  20
-2025-04-29 19:40:23,832 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
-2025-04-29 19:40:23,832 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
-2025-04-29 19:40:23,832 - INFO - PARAMETER | user_data_dir:  C:/Users/StemS/.selenium-profile
-2025-04-29 19:40:23,832 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
-2025-04-29 19:40:38,834 - INFO - clicking discard button
-2025-04-29 19:40:39,891 - INFO - About to look for save button
-2025-04-29 19:40:39,903 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:40:50,898 - INFO - clicking discard button
-2025-04-29 19:40:51,953 - INFO - About to look for save button
-2025-04-29 19:40:51,963 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:41:02,824 - INFO - clicking discard button
-2025-04-29 19:41:03,875 - INFO - About to look for save button
-2025-04-29 19:41:03,902 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:41:15,854 - INFO - About to look for save button
-2025-04-29 19:41:15,864 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:41:27,718 - INFO - About to look for save button
-2025-04-29 19:41:27,751 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:41:39,643 - INFO - About to look for save button
-2025-04-29 19:41:39,651 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:41:51,527 - INFO - About to look for save button
-2025-04-29 19:41:51,590 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:42:03,459 - INFO - About to look for save button
-2025-04-29 19:42:03,472 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:42:15,327 - INFO - About to look for save button
-2025-04-29 19:42:15,337 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:42:27,195 - INFO - About to look for save button
-2025-04-29 19:42:27,207 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:42:39,199 - INFO - About to look for save button
-2025-04-29 19:42:39,227 - INFO - Save Button not found, just pressing back button
-2025-04-29 19:42:48,423 - INFO - Exception | Message: element not interactable
-  (Session info: chrome=136.0.7103.48)
+2025-11-07 23:28:53,779 - INFO - PARAMETER | Number of videos:  3
+2025-11-07 23:28:53,779 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
+2025-11-07 23:28:53,779 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
+2025-11-07 23:28:53,779 - INFO - PARAMETER | user_data_dir:  C:/Users/StemS/.selenium-profile
+2025-11-07 23:28:53,779 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-11-07 23:29:06,271 - INFO - Exception | Message: element click intercepted: Element <span class="dropdown-trigger-text style-scope ytcp-text-dropdown-trigger">...</span> is not clickable at point (1172, 104). Other element would receive the click: <div class="yt-spec-touch-feedback-shape__fill"></div>
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
 Stacktrace:
-	GetHandleVerifier [0x00007FF7AF2BA145+76773]
-	GetHandleVerifier [0x00007FF7AF2BA1A0+76864]
-	(No symbol) [0x00007FF7AF078DAC]
-	(No symbol) [0x00007FF7AF0C8AF4]
-	(No symbol) [0x00007FF7AF0C694D]
-	(No symbol) [0x00007FF7AF0F735A]
-	(No symbol) [0x00007FF7AF0C1CF6]
-	(No symbol) [0x00007FF7AF0F7570]
-	(No symbol) [0x00007FF7AF11F0CF]
-	(No symbol) [0x00007FF7AF0F7133]
-	(No symbol) [0x00007FF7AF0C04D1]
-	(No symbol) [0x00007FF7AF0C1263]
-	GetHandleVerifier [0x00007FF7AF57A8ED+2962317]
-	GetHandleVerifier [0x00007FF7AF574EC2+2939234]
-	GetHandleVerifier [0x00007FF7AF592FF3+3062419]
-	GetHandleVerifier [0x00007FF7AF2D4B9A+185914]
-	GetHandleVerifier [0x00007FF7AF2DC78F+217647]
-	GetHandleVerifier [0x00007FF7AF2C2A44+111844]
-	GetHandleVerifier [0x00007FF7AF2C2BF2+112274]
-	GetHandleVerifier [0x00007FF7AF2A8A79+5401]
-	BaseThreadInitThunk [0x00007FF84348E8D7+23]
-	RtlUserThreadStart [0x00007FF844A714FC+44]
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6bd8d7a05
+	0x7ff6bd8d7a60
+	0x7ff6bd6516ad
+	0x7ff6bd6b2359
+	0x7ff6bd6afcde
+	0x7ff6bd6acc11
+	0x7ff6bd6abad0
+	0x7ff6bd69d2c8
+	0x7ff6bd6d297a
+	0x7ff6bd69cb56
+	0x7ff6bd6fb8fb
+	0x7ff6bd69b068
+	0x7ff6bd69be93
+	0x7ff6bdb929a0
+	0x7ff6bdb8ce20
+	0x7ff6bdbacc15
+	0x7ff6bd8f309e
+	0x7ff6bd8fad8f
+	0x7ff6bd8e0be4
+	0x7ff6bd8e0d9f
+	0x7ff6bd8c67f8
+	0x7ff8e2a9e8d7
+	0x7ff8e426c53c
 
-2025-04-29 19:42:48,423 - INFO - About to look for save button
-2025-04-29 19:42:48,430 - INFO - Save Button not found, just pressing back button
+2025-11-07 23:29:06,271 - INFO - About to look for save button
+2025-11-07 23:29:06,283 - INFO - Edit save button
+2025-11-07 23:29:16,046 - INFO - Exception | Message: element click intercepted: Element <span class="dropdown-trigger-text style-scope ytcp-text-dropdown-trigger">...</span> is not clickable at point (1172, 104). Other element would receive the click: <div class="yt-spec-touch-feedback-shape__fill"></div>
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6bd8d7a05
+	0x7ff6bd8d7a60
+	0x7ff6bd6516ad
+	0x7ff6bd6b2359
+	0x7ff6bd6afcde
+	0x7ff6bd6acc11
+	0x7ff6bd6abad0
+	0x7ff6bd69d2c8
+	0x7ff6bd6d297a
+	0x7ff6bd69cb56
+	0x7ff6bd6fb8fb
+	0x7ff6bd69b068
+	0x7ff6bd69be93
+	0x7ff6bdb929a0
+	0x7ff6bdb8ce20
+	0x7ff6bdbacc15
+	0x7ff6bd8f309e
+	0x7ff6bd8fad8f
+	0x7ff6bd8e0be4
+	0x7ff6bd8e0d9f
+	0x7ff6bd8c67f8
+	0x7ff8e2a9e8d7
+	0x7ff8e426c53c
+
+2025-11-07 23:29:16,046 - INFO - About to look for save button
+2025-11-07 23:29:16,055 - INFO - Edit save button
+2025-11-07 23:29:25,822 - INFO - Exception | Message: element click intercepted: Element <span class="dropdown-trigger-text style-scope ytcp-text-dropdown-trigger">...</span> is not clickable at point (1172, 104). Other element would receive the click: <div class="yt-spec-touch-feedback-shape__fill"></div>
+  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6bd8d7a05
+	0x7ff6bd8d7a60
+	0x7ff6bd6516ad
+	0x7ff6bd6b2359
+	0x7ff6bd6afcde
+	0x7ff6bd6acc11
+	0x7ff6bd6abad0
+	0x7ff6bd69d2c8
+	0x7ff6bd6d297a
+	0x7ff6bd69cb56
+	0x7ff6bd6fb8fb
+	0x7ff6bd69b068
+	0x7ff6bd69be93
+	0x7ff6bdb929a0
+	0x7ff6bdb8ce20
+	0x7ff6bdbacc15
+	0x7ff6bd8f309e
+	0x7ff6bd8fad8f
+	0x7ff6bd8e0be4
+	0x7ff6bd8e0d9f
+	0x7ff6bd8c67f8
+	0x7ff8e2a9e8d7
+	0x7ff8e426c53c
+
+2025-11-07 23:29:25,823 - INFO - About to look for save button
+2025-11-07 23:29:25,830 - INFO - Edit save button

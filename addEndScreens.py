@@ -14,6 +14,7 @@ import configparser
 import math
 import logging
 import os
+import pyperclip  # pip install pyperclip
 
 def getWebElementFromList(xPath):
     try:
@@ -66,6 +67,32 @@ def clearExistingEndScreens():
         except NoSuchElementException as e:
             deleteFound= False
 
+def updateDescription():
+    # Click the edit button to open the description field
+    clickOnBtnFromXPath(XPATH_EDIT_DESCRIPTION)
+
+    # Read your description from file
+    with open("description.txt", "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # Copy the content to clipboard
+    pyperclip.copy(content)
+
+    # Find the outer container (your original XPATH)
+    desContainer = driver.find_element(By.XPATH, XPATH_EDIT_DESCRIPTION)
+
+    # Click to focus the description field
+    desContainer.click()
+    time.sleep(0.5)  # slight delay to ensure focus
+
+    # Paste the clipboard contents (handles emojis)
+    desContainer.send_keys(Keys.CONTROL, 'v')
+    time.sleep(1)  # wait for the site to register the change
+
+    # Optional: press Tab to commit the change
+    desContainer.send_keys(Keys.TAB)
+    time.sleep(0.5)
+
 def addEndScreens():
     try:
         #click the end screen button
@@ -91,7 +118,7 @@ def addEndScreens():
         #save the end screen
         saveEndScreenBtn= None        
         saveEndScreenBtn= driver.find_element(By.XPATH,XPATH_END_SCREEN_SAVE_BTN)
-        if saveEndScreenBtn is not None:            
+        if saveEndScreenBtn is not None:           
             is_disabled = saveEndScreenBtn.get_attribute("disabled")
             if is_disabled is None:                
                 saveEndScreenBtn.click()
@@ -129,7 +156,9 @@ def editVideo(index):
             action_chains.move_to_element(video_to_hover_over).perform()                
             #find the edit button for the video and click it
             clickOnBtnFromXPath(XPATH_EDIT_START + index + XPATH_EDIT_END)
-            time.sleep(2)
+            time.sleep(2)           
+            #copy and paste the text in the description.txt file
+            updateDescription()        
             #click on the "No, it's not made for kids button"
             clickOnBtnFromXPath(XPATH_EDIT_NOT_FOR_KIDS)
             #now add the end screens
@@ -209,6 +238,7 @@ XPATH_EDIT_NOT_FOR_KIDS= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp
 XPATH_EDIT_SAVE= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-sticky-header/ytcp-entity-page-header/div/div[2]/ytcp-button[2]"
 XPATH_EDIT_BACK_BTN= "/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[1]/ytcp-ve/a/tp-yt-paper-icon-item"
 XPATH_EDIT_END_SCREEN_BTN= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-video-metadata-editor/ytcp-video-metadata-editor-sidepanel/ytcp-text-dropdown-trigger[2]/ytcp-dropdown-trigger/div/div[2]/span"
+XPATH_EDIT_DESCRIPTION= XPATH_BASE_YTCP + "[10]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-video-description/div/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div"
 XPATH_END_SCREEN_BASE= "/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div"
 XPATH_END_SCREEN_IMPORT_BTN= XPATH_END_SCREEN_BASE + "[2]/div/ytve-editor/div[1]/div/ytve-endscreen-editor-options-panel/div[1]/ytcp-button[2]"
 XPATH_END_SCREEN_SAVE_BTN= XPATH_END_SCREEN_BASE + "[1]/div/div[2]/div/div[2]/ytcp-button"
