@@ -170,3 +170,10 @@ Close it, and then use that same folder with Selenium — it will pick up the ch
 
 description
 /html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[10]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-video-description/div/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div
+
+
+Need to login to your google account under a different user profile, example:
+Start chrome like this:
+C:\Users\StemSull.DESKTOP-8J09TVE>"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Users/StemSull.DESKTOP-8J09TVE/.selenium-profile"
+Then login. 
+

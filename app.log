@@ -1,95 +1,11 @@
-2025-11-07 23:28:53,779 - INFO - PARAMETER | Number of videos:  3
-2025-11-07 23:28:53,779 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
-2025-11-07 23:28:53,779 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
-2025-11-07 23:28:53,779 - INFO - PARAMETER | user_data_dir:  C:/Users/StemS/.selenium-profile
-2025-11-07 23:28:53,779 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
-2025-11-07 23:29:06,271 - INFO - Exception | Message: element click intercepted: Element <span class="dropdown-trigger-text style-scope ytcp-text-dropdown-trigger">...</span> is not clickable at point (1172, 104). Other element would receive the click: <div class="yt-spec-touch-feedback-shape__fill"></div>
-  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0x7ff6bd8d7a05
-	0x7ff6bd8d7a60
-	0x7ff6bd6516ad
-	0x7ff6bd6b2359
-	0x7ff6bd6afcde
-	0x7ff6bd6acc11
-	0x7ff6bd6abad0
-	0x7ff6bd69d2c8
-	0x7ff6bd6d297a
-	0x7ff6bd69cb56
-	0x7ff6bd6fb8fb
-	0x7ff6bd69b068
-	0x7ff6bd69be93
-	0x7ff6bdb929a0
-	0x7ff6bdb8ce20
-	0x7ff6bdbacc15
-	0x7ff6bd8f309e
-	0x7ff6bd8fad8f
-	0x7ff6bd8e0be4
-	0x7ff6bd8e0d9f
-	0x7ff6bd8c67f8
-	0x7ff8e2a9e8d7
-	0x7ff8e426c53c
-
-2025-11-07 23:29:06,271 - INFO - About to look for save button
-2025-11-07 23:29:06,283 - INFO - Edit save button
-2025-11-07 23:29:16,046 - INFO - Exception | Message: element click intercepted: Element <span class="dropdown-trigger-text style-scope ytcp-text-dropdown-trigger">...</span> is not clickable at point (1172, 104). Other element would receive the click: <div class="yt-spec-touch-feedback-shape__fill"></div>
-  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0x7ff6bd8d7a05
-	0x7ff6bd8d7a60
-	0x7ff6bd6516ad
-	0x7ff6bd6b2359
-	0x7ff6bd6afcde
-	0x7ff6bd6acc11
-	0x7ff6bd6abad0
-	0x7ff6bd69d2c8
-	0x7ff6bd6d297a
-	0x7ff6bd69cb56
-	0x7ff6bd6fb8fb
-	0x7ff6bd69b068
-	0x7ff6bd69be93
-	0x7ff6bdb929a0
-	0x7ff6bdb8ce20
-	0x7ff6bdbacc15
-	0x7ff6bd8f309e
-	0x7ff6bd8fad8f
-	0x7ff6bd8e0be4
-	0x7ff6bd8e0d9f
-	0x7ff6bd8c67f8
-	0x7ff8e2a9e8d7
-	0x7ff8e426c53c
-
-2025-11-07 23:29:16,046 - INFO - About to look for save button
-2025-11-07 23:29:16,055 - INFO - Edit save button
-2025-11-07 23:29:25,822 - INFO - Exception | Message: element click intercepted: Element <span class="dropdown-trigger-text style-scope ytcp-text-dropdown-trigger">...</span> is not clickable at point (1172, 104). Other element would receive the click: <div class="yt-spec-touch-feedback-shape__fill"></div>
-  (Session info: chrome=142.0.7444.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0x7ff6bd8d7a05
-	0x7ff6bd8d7a60
-	0x7ff6bd6516ad
-	0x7ff6bd6b2359
-	0x7ff6bd6afcde
-	0x7ff6bd6acc11
-	0x7ff6bd6abad0
-	0x7ff6bd69d2c8
-	0x7ff6bd6d297a
-	0x7ff6bd69cb56
-	0x7ff6bd6fb8fb
-	0x7ff6bd69b068
-	0x7ff6bd69be93
-	0x7ff6bdb929a0
-	0x7ff6bdb8ce20
-	0x7ff6bdbacc15
-	0x7ff6bd8f309e
-	0x7ff6bd8fad8f
-	0x7ff6bd8e0be4
-	0x7ff6bd8e0d9f
-	0x7ff6bd8c67f8
-	0x7ff8e2a9e8d7
-	0x7ff8e426c53c
-
-2025-11-07 23:29:25,823 - INFO - About to look for save button
-2025-11-07 23:29:25,830 - INFO - Edit save button
+2025-12-06 02:58:19,221 - INFO - PARAMETER | Number of videos:  2
+2025-12-06 02:58:19,221 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
+2025-12-06 02:58:19,221 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
+2025-12-06 02:58:19,222 - INFO - PARAMETER | user_data_dir:  C:/Users/StemSull.DESKTOP-8J09TVE/.selenium-profile
+2025-12-06 02:58:19,222 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-12-06 02:58:36,765 - INFO - clicking discard button
+2025-12-06 02:58:37,825 - INFO - About to look for save button
+2025-12-06 02:58:37,836 - INFO - Edit save button
+2025-12-06 02:58:52,328 - INFO - clicking discard button
+2025-12-06 02:58:53,380 - INFO - About to look for save button
+2025-12-06 02:58:53,389 - INFO - Edit save button

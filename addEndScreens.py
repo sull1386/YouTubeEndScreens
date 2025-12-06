@@ -86,6 +86,7 @@ def updateDescription():
     time.sleep(0.5)  # slight delay to ensure focus
 
     # Paste the clipboard contents (handles emojis)
+    desContainer.send_keys(Keys.CONTROL, 'a')
     desContainer.send_keys(Keys.CONTROL, 'v')
     time.sleep(1)  # wait for the site to register the change
 
