@@ -180,6 +180,8 @@ def editVideo(index):
             except Exception as e:
                 logging.info("Save Button not found, just pressing back button")
             #return back to main content page for now
+            #first sleep for a second for time to save
+            time.sleep(1)
             backBtn= None            
             backBtn= driver.find_element(By.XPATH,XPATH_EDIT_BACK_BTN)
             if backBtn:
@@ -248,7 +250,7 @@ XPATH_END_SCREEN_CLEAR= XPATH_END_SCREEN_BASE + "[2]/div/ytve-editor/div[1]/div/
 XPATH_IMPORT_BASE= "/html/body/ytcp-video-pick-dialog/ytcp-dialog/tp-yt-paper-dialog/div"
 XPATH_IMPORT_TEXT_FIELD= XPATH_IMPORT_BASE + "[1]/div[2]/div/tp-yt-paper-tabs/div/div/tp-yt-paper-tab[1]/div/input"
 XPATH_IMPORT_VIDEO= XPATH_IMPORT_BASE + "[2]/div/ytcp-video-pick-dialog-contents/div/div/div/ytcp-entity-card"
-XPATH_NEXT_PAGE= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/div[2]/ytcp-table-footer/div[2]/ytcp-icon-button[3]/tp-yt-iron-icon"
+XPATH_NEXT_PAGE= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/div[2]/ytcp-table-footer/div[2]/ytcp-icon-button[3]/yt-icon/span/div"
 
 driver= browserSetup()
 openYTStudio()

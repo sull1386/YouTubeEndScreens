@@ -1,11 +1,108 @@
-2025-12-06 02:58:19,221 - INFO - PARAMETER | Number of videos:  2
-2025-12-06 02:58:19,221 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
-2025-12-06 02:58:19,221 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
-2025-12-06 02:58:19,222 - INFO - PARAMETER | user_data_dir:  C:/Users/StemSull.DESKTOP-8J09TVE/.selenium-profile
-2025-12-06 02:58:19,222 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
-2025-12-06 02:58:36,765 - INFO - clicking discard button
-2025-12-06 02:58:37,825 - INFO - About to look for save button
-2025-12-06 02:58:37,836 - INFO - Edit save button
-2025-12-06 02:58:52,328 - INFO - clicking discard button
-2025-12-06 02:58:53,380 - INFO - About to look for save button
-2025-12-06 02:58:53,389 - INFO - Edit save button
+2025-12-28 14:43:29,974 - INFO - PARAMETER | Number of videos:  35
+2025-12-28 14:43:29,974 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
+2025-12-28 14:43:29,974 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
+2025-12-28 14:43:29,974 - INFO - PARAMETER | user_data_dir:  C:/Users/StemSull.DESKTOP-8J09TVE/.selenium-profile
+2025-12-28 14:43:29,975 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-12-28 14:43:47,154 - INFO - clicking discard button
+2025-12-28 14:43:48,214 - INFO - About to look for save button
+2025-12-28 14:43:48,228 - INFO - Edit save button
+2025-12-28 14:44:03,641 - INFO - clicking discard button
+2025-12-28 14:44:04,698 - INFO - About to look for save button
+2025-12-28 14:44:04,723 - INFO - Edit save button
+2025-12-28 14:44:20,042 - INFO - clicking discard button
+2025-12-28 14:44:21,094 - INFO - About to look for save button
+2025-12-28 14:44:21,104 - INFO - Edit save button
+2025-12-28 14:44:36,496 - INFO - clicking discard button
+2025-12-28 14:44:37,548 - INFO - About to look for save button
+2025-12-28 14:44:37,558 - INFO - Edit save button
+2025-12-28 14:44:52,942 - INFO - clicking discard button
+2025-12-28 14:44:53,992 - INFO - About to look for save button
+2025-12-28 14:44:54,017 - INFO - Edit save button
+2025-12-28 14:45:09,359 - INFO - clicking discard button
+2025-12-28 14:45:10,414 - INFO - About to look for save button
+2025-12-28 14:45:10,443 - INFO - Edit save button
+2025-12-28 14:45:25,842 - INFO - clicking discard button
+2025-12-28 14:45:26,899 - INFO - About to look for save button
+2025-12-28 14:45:26,924 - INFO - Edit save button
+2025-12-28 14:45:42,241 - INFO - clicking discard button
+2025-12-28 14:45:43,295 - INFO - About to look for save button
+2025-12-28 14:45:43,305 - INFO - Edit save button
+2025-12-28 14:45:58,634 - INFO - clicking discard button
+2025-12-28 14:45:59,686 - INFO - About to look for save button
+2025-12-28 14:45:59,712 - INFO - Edit save button
+2025-12-28 14:46:14,951 - INFO - clicking discard button
+2025-12-28 14:46:16,005 - INFO - About to look for save button
+2025-12-28 14:46:16,031 - INFO - Edit save button
+2025-12-28 14:46:31,362 - INFO - clicking discard button
+2025-12-28 14:46:32,418 - INFO - About to look for save button
+2025-12-28 14:46:32,428 - INFO - Edit save button
+2025-12-28 14:46:47,768 - INFO - clicking discard button
+2025-12-28 14:46:48,825 - INFO - About to look for save button
+2025-12-28 14:46:48,835 - INFO - Edit save button
+2025-12-28 14:47:04,361 - INFO - clicking discard button
+2025-12-28 14:47:05,413 - INFO - About to look for save button
+2025-12-28 14:47:05,427 - INFO - Edit save button
+2025-12-28 14:47:20,808 - INFO - clicking discard button
+2025-12-28 14:47:21,868 - INFO - About to look for save button
+2025-12-28 14:47:21,877 - INFO - Edit save button
+2025-12-28 14:47:37,251 - INFO - clicking discard button
+2025-12-28 14:47:38,304 - INFO - About to look for save button
+2025-12-28 14:47:38,313 - INFO - Edit save button
+2025-12-28 14:47:53,726 - INFO - clicking discard button
+2025-12-28 14:47:54,780 - INFO - About to look for save button
+2025-12-28 14:47:54,825 - INFO - Edit save button
+2025-12-28 14:48:10,423 - INFO - clicking discard button
+2025-12-28 14:48:11,482 - INFO - About to look for save button
+2025-12-28 14:48:11,494 - INFO - Edit save button
+2025-12-28 14:48:27,749 - INFO - clicking discard button
+2025-12-28 14:48:28,811 - INFO - About to look for save button
+2025-12-28 14:48:28,824 - INFO - Edit save button
+2025-12-28 14:48:44,883 - INFO - clicking discard button
+2025-12-28 14:48:45,942 - INFO - About to look for save button
+2025-12-28 14:48:45,951 - INFO - Edit save button
+2025-12-28 14:49:01,759 - INFO - clicking discard button
+2025-12-28 14:49:02,813 - INFO - About to look for save button
+2025-12-28 14:49:02,824 - INFO - Edit save button
+2025-12-28 14:49:18,507 - INFO - clicking discard button
+2025-12-28 14:49:19,559 - INFO - About to look for save button
+2025-12-28 14:49:19,569 - INFO - Edit save button
+2025-12-28 14:49:34,965 - INFO - clicking discard button
+2025-12-28 14:49:36,017 - INFO - About to look for save button
+2025-12-28 14:49:36,027 - INFO - Edit save button
+2025-12-28 14:49:51,649 - INFO - clicking discard button
+2025-12-28 14:49:52,715 - INFO - About to look for save button
+2025-12-28 14:49:52,725 - INFO - Edit save button
+2025-12-28 14:50:08,583 - INFO - clicking discard button
+2025-12-28 14:50:09,640 - INFO - About to look for save button
+2025-12-28 14:50:09,650 - INFO - Edit save button
+2025-12-28 14:50:25,165 - INFO - clicking discard button
+2025-12-28 14:50:26,218 - INFO - About to look for save button
+2025-12-28 14:50:26,246 - INFO - Edit save button
+2025-12-28 14:50:41,808 - INFO - clicking discard button
+2025-12-28 14:50:42,868 - INFO - About to look for save button
+2025-12-28 14:50:42,878 - INFO - Edit save button
+2025-12-28 14:50:58,501 - INFO - clicking discard button
+2025-12-28 14:50:59,554 - INFO - About to look for save button
+2025-12-28 14:50:59,564 - INFO - Edit save button
+2025-12-28 14:51:15,123 - INFO - clicking discard button
+2025-12-28 14:51:16,173 - INFO - About to look for save button
+2025-12-28 14:51:16,184 - INFO - Edit save button
+2025-12-28 14:51:31,751 - INFO - clicking discard button
+2025-12-28 14:51:32,806 - INFO - About to look for save button
+2025-12-28 14:51:32,820 - INFO - Edit save button
+2025-12-28 14:51:48,355 - INFO - clicking discard button
+2025-12-28 14:51:49,408 - INFO - About to look for save button
+2025-12-28 14:51:49,418 - INFO - Edit save button
+2025-12-28 14:52:07,419 - INFO - About to look for save button
+2025-12-28 14:52:07,484 - INFO - Edit save button
+2025-12-28 14:52:22,892 - INFO - clicking discard button
+2025-12-28 14:52:23,944 - INFO - About to look for save button
+2025-12-28 14:52:23,971 - INFO - Edit save button
+2025-12-28 14:52:39,356 - INFO - clicking discard button
+2025-12-28 14:52:40,412 - INFO - About to look for save button
+2025-12-28 14:52:40,433 - INFO - Edit save button
+2025-12-28 14:52:56,868 - INFO - About to look for save button
+2025-12-28 14:52:56,880 - INFO - Edit save button
+2025-12-28 14:53:12,295 - INFO - clicking discard button
+2025-12-28 14:53:13,350 - INFO - About to look for save button
+2025-12-28 14:53:13,358 - INFO - Edit save button
