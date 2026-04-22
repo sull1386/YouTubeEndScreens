@@ -177,3 +177,11 @@ Start chrome like this:
 C:\Users\StemSull.DESKTOP-8J09TVE>"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Users/StemSull.DESKTOP-8J09TVE/.selenium-profile"
 Then login. 
 
+
+
+next button didn't work:
+
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/div[2]/ytcp-table-footer/div[2]/ytcp-icon-button[3]/tp-yt-iron-icon"}
+
+
+/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/div[2]/ytcp-table-footer/div[2]/ytcp-icon-button[3]/yt-icon/span/div

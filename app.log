@@ -1,23 +1,8 @@
-2026-03-22 16:32:27,292 - INFO - PARAMETER | Number of videos:  9
-2026-03-22 16:32:27,293 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
-2026-03-22 16:32:27,293 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
-2026-03-22 16:32:27,293 - INFO - PARAMETER | user_data_dir:  C:/Users/StemSull.DESKTOP-8J09TVE/.selenium-profile
-2026-03-22 16:32:27,293 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
-2026-03-22 16:32:45,325 - INFO - About to look for save button
-2026-03-22 16:32:45,358 - INFO - Edit save button
-2026-03-22 16:33:01,531 - INFO - About to look for save button
-2026-03-22 16:33:01,566 - INFO - Edit save button
-2026-03-22 16:33:17,729 - INFO - About to look for save button
-2026-03-22 16:33:17,736 - INFO - Edit save button
-2026-03-22 16:33:33,907 - INFO - About to look for save button
-2026-03-22 16:33:33,935 - INFO - Edit save button
-2026-03-22 16:33:50,032 - INFO - About to look for save button
-2026-03-22 16:33:50,045 - INFO - Edit save button
-2026-03-22 16:34:06,123 - INFO - About to look for save button
-2026-03-22 16:34:06,131 - INFO - Edit save button
-2026-03-22 16:34:22,185 - INFO - About to look for save button
-2026-03-22 16:34:22,193 - INFO - Edit save button
-2026-03-22 16:34:38,320 - INFO - About to look for save button
-2026-03-22 16:34:38,345 - INFO - Edit save button
-2026-03-22 16:34:54,403 - INFO - About to look for save button
-2026-03-22 16:34:54,428 - INFO - Edit save button
+2026-04-22 17:38:38,915 - INFO - PARAMETER | Number of videos:  1
+2026-04-22 17:38:38,916 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
+2026-04-22 17:38:38,916 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
+2026-04-22 17:38:38,916 - INFO - PARAMETER | user_data_dir:  C:/Users/StemSull.DESKTOP-8J09TVE/.selenium-profile
+2026-04-22 17:38:38,916 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-22 17:38:56,421 - INFO - clicking discard button
+2026-04-22 17:38:57,476 - INFO - About to look for save button
+2026-04-22 17:38:57,493 - INFO - Edit save button
