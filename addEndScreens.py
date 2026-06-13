@@ -236,11 +236,11 @@ XPATH_VIDEO_TO_HOVER_START= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-vid
 XPATH_VIDEO_TO_HOVER_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/ytcp-ve/a/span"
 XPATH_EDIT_START= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row["
 XPATH_EDIT_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/ytcp-ve/a/span"
-XPATH_EDIT_NOT_FOR_KIDS= XPATH_BASE_YTCP + "[15]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[5]/ytkc-made-for-kids-select/div[4]/tp-yt-paper-radio-group/tp-yt-paper-radio-button[2]/div[2]/ytcp-ve"
-XPATH_EDIT_SAVE= XPATH_BASE_YTCP + "[15]/ytcp-video-details-section/ytcp-sticky-header/ytcp-entity-page-header/div/div[2]/ytcp-button[2]"
+XPATH_EDIT_NOT_FOR_KIDS= XPATH_BASE_YTCP + "[16]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[5]/ytkc-made-for-kids-select/div[4]/tp-yt-paper-radio-group/tp-yt-paper-radio-button[2]/div[2]/ytcp-ve"
+XPATH_EDIT_SAVE= XPATH_BASE_YTCP + "[16]/ytcp-video-details-section/ytcp-sticky-header/ytcp-entity-page-header/div/div[2]/ytcp-button[2]"
 XPATH_EDIT_BACK_BTN= "/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[1]/ytcp-ve/a/tp-yt-paper-icon-item"
-XPATH_EDIT_END_SCREEN_BTN= XPATH_BASE_YTCP + "[15]/ytcp-video-details-section/ytcp-video-metadata-editor/ytcp-video-metadata-editor-sidepanel/ytcp-text-dropdown-trigger[2]/ytcp-dropdown-trigger/div/div[2]/span"
-XPATH_EDIT_DESCRIPTION= XPATH_BASE_YTCP + "[15]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-video-description/div/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div"
+XPATH_EDIT_END_SCREEN_BTN= XPATH_BASE_YTCP + "[16]/ytcp-video-details-section/ytcp-video-metadata-editor/ytcp-video-metadata-editor-sidepanel/ytcp-text-dropdown-trigger[2]/ytcp-dropdown-trigger/div/div[2]/span"
+XPATH_EDIT_DESCRIPTION= XPATH_BASE_YTCP + "[16]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-video-description/div/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div"
 XPATH_END_SCREEN_BASE= "/html/body/ytve-endscreen-modal/ytve-modal-host/ytcp-dialog/tp-yt-paper-dialog/div"
 XPATH_END_SCREEN_IMPORT_BTN= XPATH_END_SCREEN_BASE + "[2]/div/ytve-editor/div[1]/div/ytve-endscreen-editor-options-panel/div[1]/ytcp-button[2]"
 XPATH_END_SCREEN_SAVE_BTN= XPATH_END_SCREEN_BASE + "[1]/div/div[2]/div/div[2]/ytcp-button"
@@ -250,6 +250,10 @@ XPATH_IMPORT_BASE= "/html/body/ytcp-video-pick-dialog/ytcp-dialog/tp-yt-paper-di
 XPATH_IMPORT_TEXT_FIELD= XPATH_IMPORT_BASE + "[1]/div[2]/div/tp-yt-paper-tabs/div/div/tp-yt-paper-tab[1]/div/input"
 XPATH_IMPORT_VIDEO= XPATH_IMPORT_BASE + "[2]/div/ytcp-video-pick-dialog-contents/div/div/div/ytcp-entity-card"
 XPATH_NEXT_PAGE= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/div[2]/ytcp-table-footer/div[2]/ytcp-icon-button[3]/yt-icon/span/div"
+
+#/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[16]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-video-description/div/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div
+
+#/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[15]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-video-description/div/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div
 
 driver= browserSetup()
 openYTStudio()
