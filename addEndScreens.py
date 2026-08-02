@@ -258,9 +258,6 @@ XPATH_IMPORT_VIDEO= XPATH_IMPORT_BASE + "[2]/div/ytcp-video-pick-dialog-contents
 XPATH_NEXT_PAGE= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/div[2]/ytcp-table-footer/div[2]/ytcp-icon-button[3]/yt-icon/span/div"
 
 
-#/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]/a[1]/ytcp-icon-button/yt-icon/span/div
-#/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]
-
 driver= browserSetup()
 openYTStudio()
 openYTContent()
