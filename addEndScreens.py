@@ -55,9 +55,14 @@ def openYTContent():
         contentButton= getWebElementFromList(XPATH_CONTENT)
         if contentButton:
             contentButton.click()
+        #time.sleep(1)
+        #contentButton= getWebElementFromList(XPATH_CONTENTVIEWALL)
+        #if contentButton:
+            #contentButton.click()
     except Exception as e:
         print("An error occurred:", e)
     time.sleep(1)
+    print("content clicked on")
 
 def clearExistingEndScreens():
     deleteFound= True
@@ -232,10 +237,11 @@ logging.info("PARAMETER | chrome_binary_path:  %s",chrome_binary_path)
 #setup the xPath strings
 XPATH_CONTENT= "/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[2]/ul/li[2]/ytcp-ve/a/tp-yt-paper-icon-item"
 XPATH_BASE_YTCP= "/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable"
+XPATH_CONTENTVIEWALL= XPATH_BASE_YTCP + "[4]/ytcp-browse-page/ytcp-section-list-renderer/div[2]/ytcp-item-section-renderer[1]/div/horizontal-shelf-view-model/div[1]/yt-section-header-view-model/yt-shelf-header-layout/div/div[2]/div/yt-flexible-actions-view-model/div/button-view-model/button/yt-touch-feedback-shape/div[2]"
 XPATH_VIDEO_TO_HOVER_START= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row["
-XPATH_VIDEO_TO_HOVER_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/ytcp-ve/a/span"
+XPATH_VIDEO_TO_HOVER_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/ytcp-ve/a"
 XPATH_EDIT_START= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row["
-XPATH_EDIT_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/ytcp-ve/a/span"
+XPATH_EDIT_END= "]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[1]/ytcp-ve/a"
 XPATH_EDIT_NOT_FOR_KIDS= XPATH_BASE_YTCP + "[16]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[5]/ytkc-made-for-kids-select/div[4]/tp-yt-paper-radio-group/tp-yt-paper-radio-button[2]/div[2]/ytcp-ve"
 XPATH_EDIT_SAVE= XPATH_BASE_YTCP + "[16]/ytcp-video-details-section/ytcp-sticky-header/ytcp-entity-page-header/div/div[2]/ytcp-button[2]"
 XPATH_EDIT_BACK_BTN= "/html/body/ytcp-app/ytcp-entity-page/div/div/ytcp-navigation-drawer/nav/ytcp-animatable[1]/ytcp-ve/a/tp-yt-paper-icon-item"
@@ -251,9 +257,9 @@ XPATH_IMPORT_TEXT_FIELD= XPATH_IMPORT_BASE + "[1]/div[2]/div/tp-yt-paper-tabs/di
 XPATH_IMPORT_VIDEO= XPATH_IMPORT_BASE + "[2]/div/ytcp-video-pick-dialog-contents/div/div/div/ytcp-entity-card"
 XPATH_NEXT_PAGE= XPATH_BASE_YTCP + "[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/div[2]/ytcp-table-footer/div[2]/ytcp-icon-button[3]/yt-icon/span/div"
 
-#/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[16]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-video-description/div/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div
 
-#/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[15]/ytcp-video-details-section/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-video-description/div/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div
+#/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]/a[1]/ytcp-icon-button/yt-icon/span/div
+#/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[4]/ytcp-content-section/ytcp-video-section/ytcp-video-section-content/div/ytcp-video-row[1]/div/div[2]/ytcp-video-list-cell-video/div[2]/div[3]
 
 driver= browserSetup()
 openYTStudio()

@@ -1,8 +1,7 @@
-2026-04-22 17:38:38,915 - INFO - PARAMETER | Number of videos:  1
-2026-04-22 17:38:38,916 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
-2026-04-22 17:38:38,916 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
-2026-04-22 17:38:38,916 - INFO - PARAMETER | user_data_dir:  C:/Users/StemSull.DESKTOP-8J09TVE/.selenium-profile
-2026-04-22 17:38:38,916 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
-2026-04-22 17:38:56,421 - INFO - clicking discard button
-2026-04-22 17:38:57,476 - INFO - About to look for save button
-2026-04-22 17:38:57,493 - INFO - Edit save button
+2026-06-11 20:06:39,330 - INFO - PARAMETER | Number of videos:  1
+2026-06-11 20:06:39,330 - INFO - PARAMETER | youtubeStudioURL:  https://studio.youtube.com/channel/UCJfQDCwewGd2gU2fLCpeiAQ
+2026-06-11 20:06:39,330 - INFO - PARAMETER | end_screen_to_copy:  A Rare Immaculate Inning
+2026-06-11 20:06:39,330 - INFO - PARAMETER | user_data_dir:  C:/Users/StemSull.DESKTOP-8J09TVE/.selenium-profile
+2026-06-11 20:06:39,330 - INFO - PARAMETER | chrome_binary_path:  C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-06-11 20:07:00,537 - INFO - About to look for save button
+2026-06-11 20:07:00,547 - INFO - Edit save button
